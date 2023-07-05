@@ -1,6 +1,6 @@
     <div class="container mt-4">
         <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <div class="card mt-3 mb-3">
                     <div class="card-header bg-dark text-start text-white" style="letter-spacing: 1px; font-size: 17px;">
                         <strong>
@@ -8,6 +8,7 @@
                         </strong>
                     </div>
                     <div class="card-body border border-secondary my-card-body">
+                        <?php Flasher::flash(); ?>
                         <form action="auth/login" method="post">
                             <div class="form-floating mb-3">
                                 <input type="text" class="form-control" id="username" name="username" placeholder="Username">

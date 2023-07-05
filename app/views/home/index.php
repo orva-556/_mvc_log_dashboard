@@ -193,7 +193,7 @@
                         <div class="text-white">
                             <span class="text-muted">Log Count : </span>
                             <strong class=""><?= $data['log_count']; ?></strong>
-                            <a href="auth/logout" type="button" class="badge btn btn-danger btn-sm float-end">
+                            <a onclick="logoutConfirm()" type="button" class="badge btn btn-danger btn-sm float-end">
                                 <i class="fa fa-sign-out" aria-hidden="true"></i>
                                 Sign Out
                             </a>

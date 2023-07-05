@@ -28,10 +28,22 @@ class Auth extends Controller
     public function login()
     {
         $this->model('Auth_model')->getLogin();
+        
+        if (isset($_SESSION['username'])) {
+            header("Location: " . BASEURL);
+            exit;
+        } else {
+            Flasher::setFlash('Wrong Username or Password.', 'danger');
+            header("Location: " . BASEURL . "/auth");
+            exit;
+        }
     }
     
     public function logout()
     {
         $this->model('Auth_model')->getLogout();
+
+        Flasher::setFlash('You have been logged out.', 'primary');
+        exit;
     }
 }

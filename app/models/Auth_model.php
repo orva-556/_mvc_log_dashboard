@@ -17,22 +17,17 @@ class Auth_model
         if (isset($_POST['submit'])) {
             if ($_POST['username'] == $username && $_POST['password'] == $password) {
                 $_SESSION['username'] = $username;
-                header("Location: " . BASEURL);
+                // header("Location: " . BASEURL);
             } else {
-                echo "<script>
-                alert('Wrong Username or Password, check again!!!');
-                window.location.href='" . BASEURL . "/auth';
-                </script>";
-                exit;
-                // header("location: " . BASEURL . "/auth");
+                $_SESSION['username'] = null;
             }
         }
     }
 
     public function getLogout()
     {
-        session_destroy();
+        session_unset();
         header("location: " . BASEURL . "/auth");
-        exit;
+        // exit;
     }
 }

@@ -2,12 +2,11 @@
 
 class Flasher
 {
-    public static function setFlash($pesan, $aksi, $tipe)
+    public static function setFlash($message, $type)
     {
         $_SESSION['flash'] = [
-            'pesan' => $pesan,
-            'aksi' => $aksi,
-            'tipe' => $tipe
+            'message' => $message,
+            'type' => $type
         ];
     }
 
@@ -15,8 +14,8 @@ class Flasher
     {
         if (isset($_SESSION['flash'])) {
             echo '
-                <div class="alert alert-' . $_SESSION['flash']['tipe'] . ' alert-dismissible fade show" role="alert">
-                    Data Mahasiswa <strong>' . $_SESSION['flash']['pesan'] . '</strong> ' . $_SESSION['flash']['aksi'] . '
+                <div class="alert alert-' . $_SESSION['flash']['type'] . ' alert-dismissible fade show" role="alert">
+                    <strong>' . $_SESSION['flash']['message'] . '</strong>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             ';
