@@ -9,8 +9,8 @@
     <title><?= $data['title']; ?></title>
 
     <!-- APP ICON -->
-    <!-- <link rel="shortcut icon" href="<?= BASEURL; ?>/public/img/logo/untad.png" type="image/png"> -->
-    <link rel="shortcut icon" href="<?= BASEURL; ?>/public/img/logo/orva-light.png" type="image/png">
+    <link rel="shortcut icon" href="<?= BASEURL; ?>/public/img/logo/untad.png" type="image/png">
+    <!-- <link rel="shortcut icon" href="<?= BASEURL; ?>/public/img/logo/orva-light.png" type="image/png"> -->
 
     <!-- Bootstrap CSS -->
     <link href="<?= BASEURL; ?>/public/assets/bootstrap-5.0.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -29,11 +29,11 @@
         <div class="container">
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
             <a class="navbar-brand" href="<?= BASEURL; ?>">
-                <!-- <img src="<?= BASEURL; ?>/public/img/logo/untad.png" alt="untad" height="47.5" class="me-1"> -->
-                <img src="<?= BASEURL; ?>/public/img/logo/orva-light.png" alt="untad" height="47.5" class="">
+                <img src="<?= BASEURL; ?>/public/img/logo/untad.png" alt="untad" height="47.5" class="me-1">
+                <!-- <img src="<?= BASEURL; ?>/public/img/logo/orva-light.png" alt="untad" height="47.5" class=""> -->
                 <label class="my-brand align-middle text-start" style="line-height: 20px;">
-                    <!-- <span class="fs-6"><strong>UPT. TIK UNTAD</strong></span><br> -->
-                    <span class="fs-6"><strong>ORVA. ov556</strong></span><br>
+                    <span class="fs-6"><strong>UPT. TIK UNTAD</strong></span><br>
+                    <!-- <span class="fs-6"><strong>ORVA. ov556</strong></span><br> -->
                     <span class="fs-4">LOG DASHBOARD</span>
                 </label>
             </a>
