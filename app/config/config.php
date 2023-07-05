@@ -2,9 +2,11 @@
 
 // URL UTAMA
 define('BASEURL', 'http://localhost/_mvc_log_dashboard');
+// define('BASEURL', 'http://192.168.55.101/ov_log_dashboard');
 
 // LOG DIRECTORY
 define('LOG_DIR', '/var/log/client/snort/log.csv');
+// define('LOG_DIR', '/var/log/client/snort/.log.csv.0');
 define('LOG_CMD', ' | sed "s/ //g" | tr "," " "');
 // define('LOG_PROMPT1', 'sed "s/ //g"');
 // define('LOG_PROMPT2', 'tr "," " "');

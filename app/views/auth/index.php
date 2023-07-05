@@ -3,6 +3,9 @@
             <div class="col-md-5">
                 <div class="card mt-3 mb-3">
                     <div class="card-header bg-dark text-start text-white" style="letter-spacing: 1px; font-size: 17px;">
+                        <span>
+                            <i class="fa fa-user fa-fw" aria-hidden="true"></i>
+                        </span>
                         <strong>
                             ADMIN LOGIN
                         </strong>
@@ -24,18 +27,18 @@
                                     Show Password
                                 </label>
                             </div>
-                            <div class="text-center mt-4">
+                            <div class="text-end mt-2">
                                 <button type="submit" name="submit" class="btn btn-primary">
                                     <i class="fa fa-sign-in me-1" aria-hidden="true"></i>
-                                    Sign in
+                                    Log in
                                 </button>
                             </div>
                         </form>
                     </div>
                     <div class="card-footer bg-dark">
                         <div class="row">
-                            <div class="text-end text-white">
-                                <span class="text-muted">needed to login...</span>
+                            <div class="text-start text-white">
+                                <span class="text-muted">Insert <strong>Username</strong> and <strong>Password</strong>...</span>
                             </div>
                         </div>
                     </div>

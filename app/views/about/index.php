@@ -14,6 +14,9 @@
         <div class="col-lg-5">
             <div class="card mt-3 mb-3">
                 <div class="card-header bg-dark text-start text-white" style="letter-spacing: 1px; font-size: 17px;">
+                    <span>
+                        <i class="fa fa-file-text fa-fw" aria-hidden="true"></i>
+                    </span>
                     <strong>
                         ABOUT
                     </strong>
@@ -31,7 +34,7 @@
                         <label>My Github :</label> <br>
                         <a href="https://github.com/orva-556" class="mb-1 fw-bold">https://github.com/orva-556</a> <br>
                         <label>This Project Repository :</label> <br>
-                        <a href="https://github.com/orva-556/orva" class="m-0 fw-bold">https://github.com/orva-556/orva</a>
+                        <a href="https://github.com/orva-556/ov_log_dashboard" class="m-0 fw-bold">https://github.com/orva-556/ov_log_dashboard</a>
                     </div>
                 </div>
                 <div class="card-footer bg-dark">

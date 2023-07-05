@@ -1,4 +1,7 @@
 <div class="card-header bg-dark text-start text-white" style="letter-spacing: 1px; font-size: 17px;">
+    <span>
+        <i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true"></i>
+    </span>
     <strong>
         ATTACK ATTEMPT RECORD
     </strong>
@@ -178,7 +181,7 @@
             <strong class=""><?= $data['log_searchCount']; ?></strong>
             <a onclick="logoutConfirm()" type="button" class="badge btn btn-danger btn-sm float-end">
                 <i class="fa fa-sign-out" aria-hidden="true"></i>
-                Sign Out
+                Log Out
             </a>
         </div>
     </div>
